@@ -13,7 +13,9 @@ export default class App extends Component {
     {params.getRowsAmount()}x{params.getColumnsAmount()}</Text>
     <Field />
     <Field opened/>
-    <Field opened nearMines={6}/>
+    <Field opened nearMines={1}/>
+    <Field mined opened/>
+    <Field mined opened exploded/>
       </View>
     );
   }
